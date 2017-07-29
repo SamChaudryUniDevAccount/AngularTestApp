@@ -5,5 +5,8 @@
     </br> 
     <ul>
         <li ng-repeat="cust in customers | filter:name">{{cust.name | uppercase}} - {{cust.city}}</li>
-    </ul>   
+    </ul>
+    <ul>
+    <li ng-repeat="d in data ">{{d.title | uppercase}} - {{d.owner}}</li>
+    </ul>
 </div>
