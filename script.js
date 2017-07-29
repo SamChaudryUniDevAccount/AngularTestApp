@@ -36,7 +36,7 @@ controllers.testController = function($scope,testFactory){
        $scope.data  = data;
 
        //Console data
-       console.log($scope.data);
+       console.log($scope.data['photo']);
 
    })
 
