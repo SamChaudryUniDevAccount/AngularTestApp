@@ -12,7 +12,7 @@ demo.factory('testFactory',function ($http) {
 
     var _getData = function() {
 
-        return $http.get('https://api.darksky.net/forecast/0ea0dba452734effd416b885f0adbc3a/42.3601,-71.0589,409467600?exclude=currently,flags');
+        return $http.get('https://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&format=json&api_key=6f93d9bd5fef5831ec592f0b527fdeff&user_id=9395899@N08');
     };
 
     return{
